@@ -1,0 +1,44 @@
+{
+  "title": "Hello World 设置",
+  "sections": [
+    {
+      "sectionId": "general",
+      "title": "基础设置",
+      "fields": [
+        {
+          "fieldType": "text_input",
+          "fieldId": "greeting_prefix",
+          "label": "问候语前缀",
+          "placeholder": "例如：你好",
+          "defaultValue": "你好"
+        },
+        {
+          "fieldType": "toggle",
+          "fieldId": "enable_echo",
+          "label": "启用复读功能",
+          "defaultValue": true
+        },
+        {
+          "fieldType": "text_input",
+          "fieldId": "echo_prefix",
+          "label": "复读前缀",
+          "placeholder": "复读时添加的前缀",
+          "defaultValue": "🔊 "
+        }
+      ]
+    },
+    {
+      "sectionId": "advanced",
+      "title": "高级设置",
+      "fields": [
+        {
+          "fieldType": "text_input",
+          "fieldId": "llm_footer",
+          "label": "LLM 回复后缀",
+          "placeholder": "留空则不追加",
+          "defaultValue": ""
+        }
+      ]
+    }
+  ]
+}

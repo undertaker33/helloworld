@@ -1,0 +1,15 @@
+﻿{
+  "pluginId": "com.example.helloworld",
+  "version": "1.0.0",
+  "protocolVersion": 2,
+  "author": "Your Name",
+  "title": "Hello World 示例插件",
+  "description": "最小可导入、可执行、可配置的 AstrBot 插件模板",
+  "permissions": [],
+  "minHostVersion": "0.4.0",
+  "maxHostVersion": "",
+  "sourceType": "GIT",
+  "sourceUrl": "https://github.com/undertaker33/helloworld.git",
+  "entrySummary": "演示命令处理、正则匹配、LLM 钩子和配置读取",
+  "riskLevel": "LOW"
+}

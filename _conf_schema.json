@@ -1,0 +1,37 @@
+﻿{
+  "greeting_prefix": {
+    "type": "string",
+    "description": "问候语前缀",
+    "hint": "命令回复时显示在名字前面的文本",
+    "default": "你好",
+    "section": "general"
+  },
+  "enable_echo": {
+    "type": "bool",
+    "description": "启用复读功能",
+    "hint": "开启后正则匹配到的消息会被原样复读",
+    "default": true,
+    "section": "general"
+  },
+  "echo_prefix": {
+    "type": "string",
+    "description": "复读前缀",
+    "hint": "复读消息时添加的前缀文本",
+    "default": "🔊 ",
+    "section": "general"
+  },
+  "max_retries": {
+    "type": "number",
+    "description": "最大重试次数",
+    "hint": "失败后自动重试的最大次数",
+    "default": 3,
+    "section": "advanced"
+  },
+  "llm_footer": {
+    "type": "text",
+    "description": "LLM 回复后缀",
+    "hint": "追加到每条 LLM 回复末尾的文本，留空则不追加",
+    "default": "",
+    "section": "advanced"
+  }
+}
